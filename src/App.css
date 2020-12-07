@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,500,700");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+    color: white;
+    width: 100%;
+    height: 100vh;
+    background: url("../src/assets/img-1.jpg");
+    /* background-color: black; */
+    background-size: cover;
+    background-position: center;
+}
+
+.view {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 10;
+}
+
+.loading {
+    margin-top: 10%;
+}
+
+nav {
+    z-index: 30;
+}
+
+nav .container-fluid .navbar-brand {
+    font-size: 2em;
+    margin: 20px;
+}
+
+nav .container-fluid .nav-link {
+    font-size: 1.5rem;
+    margin: 30px;
+    font-weight: bold;
+}
+
+nav .navbar-collapse .nav-item {
+    /* color: white; */
+}
+
+.dashboard {
+    max-width: 70%;
+}
+
+.clients {
+    color: darkred;
+    font-size: 1.5em;
+}
+
+.order-count {
+    color: black;
+    font-weight: 1000;
+}
+
+.table{
+    background-color: lightpink
+}
+.container{
+    background-color: lightpink;
+}
